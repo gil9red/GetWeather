@@ -2,7 +2,7 @@
 ===========
 
 ####EN:
-A simple example of getting the weather (Python).
+Simple example of retrieving weather (Python).
 
 ####RU:
-Простой пример получение погоды (Python).
+Простой пример получения погоды (Python).
