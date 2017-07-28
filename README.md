@@ -1,8 +1,8 @@
-﻿GetWeather.
+﻿GetWeather
 ===========
 
-####EN:
+#### EN:
 Simple example of retrieving weather.
 
-####RU:
+#### RU:
 Простой пример получения погоды.

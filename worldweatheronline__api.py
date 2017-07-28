@@ -1,4 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 __author__ = 'ipetrash'
+
 
 import urllib.request
 import json
@@ -12,7 +16,7 @@ if __name__ == '__main__':
         'q': 'Magnitogorsk',
         'format': 'json',
         'date': 'today',
-        'key': '63bf6ed71f4a52d00ac9f6cf326a76aed49e4791',
+        'key': '<your_key>',
     }
 
     url = "https://api.worldweatheronline.com/free/v1/weather.ashx?" + urllib.parse.urlencode(post_params)
@@ -26,4 +30,4 @@ if __name__ == '__main__':
         temp_C = current_condition["temp_C"]
         pressure = current_condition["pressure"]
 
-        print("City: '{c}', temp: {t_C}C, pressure: {p}mb".format(c=request["query"], t_C=temp_C, p=pressure), end='')
+        print("City: '{c}', temp: {t_C}C, pressure: {p}mb".format(c=request["query"], t_C=temp_C, p=pressure))
